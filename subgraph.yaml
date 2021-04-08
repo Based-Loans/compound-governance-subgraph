@@ -1,12 +1,12 @@
 specVersion: 0.0.2
-description: Based Loans governance subgraph for rinkeby
+description: Based Loans governance subgraph for rinkeby network
 repository: https://github.com/Based-Loans/governance-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: GovernorAlpha
-    network: mainnet
+    network: rinkeby
     source:
       address: "0xa832ce1b31bfb0961e78350320ab4cb7f110e7e2"
       abi: GovernorAlpha
@@ -38,7 +38,7 @@ dataSources:
           handler: handleVoteCast
   - kind: ethereum/contract
     name: CompoundToken
-    network: mainnet
+    network: rinkeby
     source:
       address: "0x238d82a35e69d7c10fe69a649134171c63e57522"
       abi: CompoundToken
