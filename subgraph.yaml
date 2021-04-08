@@ -1,5 +1,5 @@
 specVersion: 0.0.2
-description: Based Loans governance subgraph
+description: Based Loans governance subgraph for rinkeby
 repository: https://github.com/Based-Loans/governance-subgraph
 schema:
   file: ./schema.graphql
@@ -8,9 +8,9 @@ dataSources:
     name: GovernorAlpha
     network: mainnet
     source:
-      address: "0xc0da01a04c3f3e0be433606045bb7017a7323e38"
+      address: "0xa832ce1b31bfb0961e78350320ab4cb7f110e7e2"
       abi: GovernorAlpha
-      startBlock: 9601459
+      startBlock: 8374563
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -40,9 +40,9 @@ dataSources:
     name: CompoundToken
     network: mainnet
     source:
-      address: "0xc00e94cb662c3520282e6f5717214004a7f26888"
+      address: "0x238d82a35e69d7c10fe69a649134171c63e57522"
       abi: CompoundToken
-      startBlock: 9601359
+      startBlock: 8374559
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
