@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: Compound governance subgraph
-repository: https://github.com/protofire/compound-governance-subgraph
+description: Based Loans governance subgraph
+repository: https://github.com/Based-Loans/governance-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
