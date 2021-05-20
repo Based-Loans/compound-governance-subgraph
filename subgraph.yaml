@@ -8,9 +8,9 @@ dataSources:
     name: GovernorAlpha
     network: rinkeby
     source:
-      address: "0xb7458e89579a08b2cefc3457f3a4a264c11f1700"
+      address: "0xfa639587f88128c39f54276c0278ea8911aa8e37"
       abi: GovernorAlpha
-      startBlock: 8422759
+      startBlock: 8481686
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -40,9 +40,9 @@ dataSources:
     name: CompoundToken
     network: rinkeby
     source:
-      address: "0x8574683ac06d4c813068987c7497c8544ec64bc2"
+      address: "0xa05dcaeb873a0c2d56ee523ccf11920eca105778"
       abi: CompoundToken
-      startBlock: 8420069
+      startBlock: 8481682
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
